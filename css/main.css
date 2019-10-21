@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  margin:0;
+  margin: 0;
 }
 
 img {
@@ -24,6 +24,14 @@ footer {
   background-color: #ffe500;
 }
 
+header {
+  padding: 0 .75em;
+}
+
+strong {
+  color: #2f2d13;
+}
+
 section {
   background-color: #fff;
   margin: 0;
@@ -34,9 +42,8 @@ h1,
 h2 {
   text-align: center;
   font-size: 3rem;
-  font-family:"Sigmar One", cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
-  font-size: 3rem;
 }
 
 h2 {
@@ -60,9 +67,16 @@ a {
   text-decoration: none;
 }
 
-li:hover {
+nav li:hover {
   display: inline-block;
   background-color: #cc1465;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #b2a212;
+}
+
+a:hover {
   border-radius: 4px;
 }
 
@@ -77,4 +91,8 @@ h1 {
 
 nav ul {
   vertical-align: middle;
+}
+
+.nav .current {
+  background-color: #b20953;
 }
